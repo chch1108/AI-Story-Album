@@ -92,16 +92,16 @@ FastAPI 後端提供以下 API 端點：
 ## Project Structure
 
 /
-├── frontend/ # Vue.js 前端
-├── modules/ # 核心 Python 模組
-│ ├── image_analysis.py
-│ └── story_generator.py
-├── temp/ # 暫存檔案資料夾
-│ ├── uploads/
-│ └── exports/
-├── app.py # 原始 Streamlit 應用（已淘汰）
-├── main.py # FastAPI 後端伺服器
-├── requirements.txt # Python 相依套件
+├── frontend/            # Vue.js 前端
+├── modules/             # 核心 Python 模組
+│   ├── image_analysis.py
+│   └── story_generator.py
+├── temp/                # 暫存檔案資料夾
+│   ├── uploads/
+│   └── exports/
+├── app.py               # 原始 Streamlit 應用（已淘汰）
+├── main.py              # FastAPI 後端伺服器
+├── requirements.txt     # Python 相依套件
 └── ...
 
 此 `README.md` 提供 AI Story Album 專案的完整概覽，包含系統架構以及如何快速啟動與執行的說明。
